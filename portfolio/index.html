@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sanjit Bhandari — Operations by Trade, Developer by Choice</title>
+  <meta name="description" content="Portfolio of Sanjit Bhandari — Operations Officer at eSewa, self-taught developer, and creative learner based in Lalitpur, Nepal.">
+
+  <meta property="og:title" content="Sanjit Bhandari — Developer · Creative Technologist">
+  <meta property="og:description" content="Operations by trade. Code by choice. A portfolio built from BCA lecture notes, Django migrations, and rubber-band physics.">
+  <meta property="og:type" content="website">
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2222%22 fill=%22%2316171B%22/><text x=%2250%22 y=%2266%22 font-size=%2258%22 text-anchor=%22middle%22 fill=%22%23E7344B%22 font-family=%22Georgia,serif%22>S</text></svg>">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;0,9..144,700;0,9..144,900;1,9..144,500;1,9..144,600&family=Space+Grotesk:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="is-loading">
+
+<div class="page-curtain" id="pageCurtain" aria-hidden="true">
+  <div class="page-curtain-panel page-curtain-panel--ink"></div>
+  <div class="page-curtain-panel page-curtain-panel--cobalt"></div>
+  <div class="page-curtain-panel page-curtain-panel--crimson"></div>
+  <span class="page-curtain-mark">S·B</span>
+</div>
+<script>
+  setTimeout(function () {
+    var c = document.getElementById('pageCurtain');
+    if (c) { c.style.display = 'none'; }
+    document.body.classList.remove('is-loading');
+  }, 2000);
+</script>
+
+<div class="grain" aria-hidden="true"></div>
+
+<div class="cursor" id="cursor" aria-hidden="true">
+  <span class="cursor-label" id="cursorLabel"></span>
+</div>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="nav" id="siteNav">
+  <a class="nav-mark" href="#top" aria-label="Sanjit Bhandari — back to top">
+    <span class="mark-glyph">S·B</span>
+  </a>
+  <nav class="nav-pill" aria-label="Primary">
+    <ul>
+      <li><a href="#top" data-cursor-label="HOME">Home</a></li>
+      <li><a href="#about" data-cursor-label="ABOUT">About</a></li>
+      <li><a href="#skills" data-cursor-label="SKILLS">Skills</a></li>
+      <li><a href="#work" data-cursor-label="WORK">Work</a></li>
+      <li><a href="#journey" data-cursor-label="JOURNEY">Experience</a></li>
+      <li><a href="#contact" data-cursor-label="CONTACT">Contact</a></li>
+    </ul>
+  </nav>
+  <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+    <span></span><span></span>
+  </button>
+</header>
+
+<!-- Dark Mode Toggle – CENTER TOP -->
+<button class="dark-toggle" id="darkToggle" aria-label="Toggle dark mode">
+  <svg class="dark-icon" viewBox="0 0 24 24" width="24" height="24">
+    <path class="icon-moon" d="M12 3a9 9 0 1 0 9 9c0-.46-.04-.92-.1-1.36a5.389 5.389 0 0 1-4.4 2.26 5.403 5.403 0 0 1-3.14-9.8c-.44-.06-.9-.1-1.36-.1z" fill="currentColor"/>
+    <path class="icon-sun" d="M12 2v2m0 16v2M4.93 4.93l1.41 1.41m11.32 11.32l1.41 1.41M2 12h2m16 0h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41M12 6a6 6 0 1 0 0 12 6 6 0 0 0 0-12z" stroke="currentColor" stroke-width="2" fill="none"/>
+  </svg>
+</button>
+
+<div class="mobile-menu" id="mobileMenu">
+  <ul>
+    <li><a href="#top">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#work">Work</a></li>
+    <li><a href="#journey">Experience</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</div>
+
+<main id="main">
+
+  <section class="hero" id="top">
+    <canvas class="hero-bg-canvas" id="heroCanvas" aria-hidden="true"></canvas>
+
+    <div class="hero-inner">
+      <div class="hero-text">
+        <p class="eyebrow reveal-up">Lalitpur, Nepal — <span id="localTime">--:--</span></p>
+        <h1 class="hero-title">
+          <span class="reveal-up" style="--d:0">Hello,</span>
+          <span class="reveal-up" style="--d:1">I'm <em>Sanjit Bhandari</em></span>
+        </h1>
+        <p class="hero-sub reveal-up" style="--d:2">
+          Operations by trade. Code by choice.
+        </p>
+        <div class="social-dock reveal-up" style="--d:3" role="list" aria-label="Social links">
+          <a href="https://www.linkedin.com/in/sanjit-bhandari-900a3a2b4/" target="_blank" rel="noopener" aria-label="LinkedIn" data-cursor-label="LINKEDIN"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://github.com/Sanjit2061/" target="_blank" rel="noopener" aria-label="GitHub" data-cursor-label="GITHUB"><i class="fab fa-github"></i></a>
+          <a href="https://www.facebook.com/sanjit.bhandari.12382/" target="_blank" rel="noopener" aria-label="Facebook" data-cursor-label="FACEBOOK"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://youtube.com/@sanjitbhandari-3117?si=4WgPe_nyM6oYCm9j" target="_blank" rel="noopener" aria-label="YouTube" data-cursor-label="YOUTUBE"><i class="fab fa-youtube"></i></a>
+          <a href="https://www.instagram.com/who_is_sanjit/" target="_blank" rel="noopener" aria-label="Instagram" data-cursor-label="INSTAGRAM"><i class="fab fa-instagram"></i></a>
+          <a href="mailto:sanjitbhandari2061@gmail.com" aria-label="Email" data-cursor-label="EMAIL"><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+
+      <div class="hero-card-col reveal-up" style="--d:2">
+        <div class="id-rig" id="idRig">
+          <!-- SVG Lanyard – uses a shared viewBox coordinate system -->
+          <svg class="id-lanyard" id="lanyardSvg" width="100%" height="400" viewBox="0 0 400 400" preserveAspectRatio="xMidYMin meet" overflow="visible" aria-hidden="true">
+            <!-- Fixed Holder/Clip at top -->
+            <rect x="155" y="0" width="90" height="22" rx="5" fill="#2a2a2a" stroke="#555" stroke-width="1.5"/>
+            <rect x="165" y="3" width="70" height="6" rx="2" fill="#444"/>
+            <rect x="160" y="11" width="80" height="9" rx="3" fill="#222"/>
+            <circle cx="200" cy="15" r="5" fill="#555"/>
+            <circle cx="200" cy="15" r="2.5" fill="#888"/>
+
+            <!-- Fixed Lanyard - Left side -->
+            <path d="M 180 22 C 160 35, 148 52, 155 70 C 162 88, 175 95, 180 100" stroke="#222" stroke-width="8" fill="none" stroke-linecap="round"/>
+            <path d="M 180 22 C 160 35, 148 52, 155 70 C 162 88, 175 95, 180 100" stroke="#444" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.3"/>
+
+            <!-- Fixed Lanyard - Right side -->
+            <path d="M 220 22 C 240 35, 252 52, 245 70 C 238 88, 225 95, 220 100" stroke="#222" stroke-width="8" fill="none" stroke-linecap="round"/>
+            <path d="M 220 22 C 240 35, 252 52, 245 70 C 238 88, 225 95, 220 100" stroke="#444" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.3"/>
+
+            <!-- Connection point where lanyard meets rope -->
+            <rect x="170" y="95" width="60" height="14" rx="4" fill="#333" stroke="#555" stroke-width="1.5"/>
+            <rect x="182" y="98" width="36" height="8" rx="2" fill="#555"/>
+            <circle cx="200" cy="102" r="3" fill="#666"/>
+
+            <!-- STRETCHABLE ROPE – these paths will be updated by JS -->
+            <!-- Left rope -->
+            <path id="ropeLeft" d="M 180 109 C 172 140, 168 165, 180 195" stroke="#333" stroke-width="7" fill="none" stroke-linecap="round"/>
+            <path id="ropeLeftHighlight" d="M 180 109 C 172 140, 168 165, 180 195" stroke="#555" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.3"/>
+            <!-- Right rope -->
+            <path id="ropeRight" d="M 220 109 C 228 140, 232 165, 220 195" stroke="#333" stroke-width="7" fill="none" stroke-linecap="round"/>
+            <path id="ropeRightHighlight" d="M 220 109 C 228 140, 232 165, 220 195" stroke="#555" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.3"/>
+
+            <!-- Rope Clip at bottom – this will be positioned by JS -->
+            <rect id="ropeClipBottom" x="175" y="195" width="50" height="18" rx="5" fill="#444" stroke="#666" stroke-width="1.5"/>
+            <rect id="ropeClipHoleBottom" x="190" y="200" width="20" height="8" rx="3" fill="#888"/>
+            <rect x="180" y="197" width="40" height="2" rx="1" fill="rgba(255,255,255,0.15)"/>
+          </svg>
+
+          <button class="id-anchor" id="idAnchor" aria-hidden="true" tabindex="-1"></button>
+
+          <article class="id-card" id="idCard" tabindex="0" role="group"
+            aria-label="Interactive identity badge for Sanjit Bhandari. Press and drag to pull, release to let it swing back.">
+            <div class="id-card-inner">
+              <div class="id-top">
+                <span class="id-issuer">KATHMANDU VALLEY · ISSUED TO</span>
+                <span class="id-punch" aria-hidden="true"></span>
+              </div>
+              <div class="id-photo">
+                <img src="images/profile.jpg" alt="Portrait of Sanjit Bhandari" id="idPhoto"
+                  draggable="false"
+                  onerror="this.style.display='none'; this.parentElement.classList.add('id-photo--empty')">
+                <div class="id-photo-fallback" aria-hidden="true">SB</div>
+              </div>
+              <div class="id-body">
+                <p class="id-label">NAME</p>
+                <h2 class="id-name" id="cfgName">Sanjit Bhandari</h2>
+                <p class="id-label">TITLE</p>
+                <p class="id-title" id="cfgTitle">Operations Officer · Developer · Creative Technologist</p>
+                <div class="id-row">
+                  <div>
+                    <p class="id-label">LOCATION</p>
+                    <p class="id-value" id="cfgLocation">Lalitpur, Nepal</p>
+                  </div>
+                  <div>
+                    <p class="id-label">STATUS</p>
+                    <p class="id-value" id="cfgStatus">Building / Learning / Creating</p>
+                  </div>
+                </div>
+                <div class="id-row">
+                  <div>
+                    <p class="id-label">ID NO.</p>
+                    <p class="id-value id-mono" id="cfgId">SB-2082-KTM</p>
+                  </div>
+                  <div>
+                    <p class="id-label">CLEARANCE</p>
+                    <p class="id-value id-mono">FULL&nbsp;STACK</p>
+                  </div>
+                </div>
+              </div>
+              <div class="id-bottom">
+                <div class="id-barcode" aria-hidden="true">
+                  <span></span><span></span><span></span><span></span><span></span><span></span>
+                  <span></span><span></span><span></span><span></span><span></span><span></span>
+                </div>
+                <span class="id-mono id-issued">VALID · NO EXPIRY</span>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <p class="drag-hint" id="dragHint">↕ Grab the card, pull it down, then let go</p>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- ============ MARQUEE ============ -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <span>OPERATIONS OFFICER</span><span>◆</span><span>DJANGO DEVELOPER</span><span>◆</span><span>UI/UX DESIGNER</span><span>◆</span><span>VIBE CODER</span><span>◆</span>
+      <span>OPERATIONS OFFICER</span><span>◆</span><span>DJANGO DEVELOPER</span><span>◆</span><span>UI/UX DESIGNER</span><span>◆</span><span>VIBE CODER</span><span>◆</span>
+    </div>
+  </div>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="about" id="about">
+    <span class="section-label">01 — About</span>
+    <p class="about-statement reveal-lines">
+      I work in operations at eSewa, where precision, reliability and problem-solving matter every day.
+      Outside work, I turn that same curiosity toward technology — learning to build products,
+      experimenting with interfaces, and developing real projects one problem at a time.
+    </p>
+    <div class="about-grid">
+      <div class="about-block reveal-up">
+        <p class="section-label">Currently</p>
+        <p><strong>Operations Officer</strong><br>eSewa, Lalitpur</p>
+        <p class="muted">Started in customer support, moved into operations — so I've watched a transaction go from "user problem" to "resolved" from both sides of the desk.</p>
+      </div>
+      <div class="about-block reveal-up">
+        <p class="section-label">Studying</p>
+        <p><strong>Bachelor in Computer Application (BCA)</strong></p>
+        <p class="muted">Asian College of Higher Studies (ACHS), Lalitpur. Where the "why" behind the code finally clicked.</p>
+      </div>
+      <div class="about-block reveal-up">
+        <p class="section-label">Off the clock</p>
+        <p><strong>Vibe coding, UI/UX &amp; graphic design</strong></p>
+        <p class="muted">Real code, not just prompts — plus interfaces, layouts, and the occasional bit of generative, comic-ink-edged visual noise.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FEATURE ============ -->
+  <section class="feature" id="feature">
+    <div class="feature-text">
+      <span class="section-label">The long view</span>
+      <p class="feature-line">From customer support<br>to building systems.</p>
+      <p class="feature-sub">Working close to users and transactions gave me a practical understanding of how systems behave — and a drive to learn how to build them.</p>
+    </div>
+    <div class="feature-media" id="featureMedia">
+      <img src="images/feature.jpg" alt="Sanjit working across a ledger and a code editor"
+           id="featureImg" onerror="this.parentElement.classList.add('feature-media--empty')">
+      <div class="feature-media-fallback" aria-hidden="true">
+        <span>KTM</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SPLIT SECTION ============ -->
+  <section class="split" id="splitSection">
+    <div class="split-panel split-panel--dark" id="splitLeft">
+      <span class="section-label section-label--inverse">The operations desk</span>
+      <h3>Where reliability<br>is everything.</h3>
+      <p>Transaction handling, reconciliation, escalations, edge‑cases that break the rulebook. I've learned to spot where a process will fail before it does — and fix it before anyone notices.</p>
+    </div>
+    <div class="split-divider" id="splitDivider" aria-hidden="true"></div>
+    <div class="split-panel split-panel--light" id="splitRight">
+      <span class="section-label">The code editor</span>
+      <h3>Where curiosity<br>gets to build.</h3>
+      <p>Django, Python, SQL, JavaScript — learning by building real things: a marketplace, a household manager, this very page. Each project teaches me something I didn't know yesterday.</p>
+    </div>
+  </section>
+
+  <!-- ============ SKILLS ============ -->
+  <section class="skills" id="skills">
+    <span class="section-label">02 — Skills</span>
+    <h2 class="section-title">What I reach for</h2>
+    <ul class="skill-list" id="skillList" aria-label="Skills, hover or focus each for detail"></ul>
+  </section>
+
+  <!-- ============ PROJECTS ============ -->
+  <section class="work" id="work">
+    <span class="section-label">03 — Work</span>
+    <h2 class="section-title">Selected builds</h2>
+    <div class="project-list" id="projectList"></div>
+  </section>
+
+  <!-- ============ JOURNEY / EXPERIENCE ============ -->
+  <section class="journey" id="journey">
+    <span class="section-label">04 — Experience</span>
+    <h2 class="section-title">The long way here</h2>
+    <div class="timeline" id="timeline"></div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="contact" id="contact">
+    <span class="section-label section-label--inverse">05 — Contact</span>
+
+    <!-- Headline and the CV/social links sit side-by-side, up top, so
+         nothing important requires scrolling past the form to see. -->
+    <div class="contact-top">
+      <h2 class="contact-title">
+        Let's build<br>
+        something worth<br>
+        <em>remembering.</em>
+      </h2>
+
+      <div class="contact-side">
+        <a class="btn btn--cv" href="Sanjit-Bhandari-CV.pdf" download data-cursor-label="DOWNLOAD">
+          <span>Download CV</span>
+          <span class="btn-arrow" aria-hidden="true">↓</span>
+        </a>
+        <ul class="social-list" id="socialList" aria-label="Social links"></ul>
+      </div>
+    </div>
+
+    <div class="contact-form-wrap">
+      <form class="contact-form" id="contactForm" novalidate>
+        <label class="field">
+          <span>Your name</span>
+          <input type="text" name="name" id="cName" required autocomplete="name">
+        </label>
+        <label class="field">
+          <span>Your email</span>
+          <input type="email" name="email" id="cEmail" required autocomplete="email">
+        </label>
+        <label class="field">
+          <span>What are we building?</span>
+          <textarea name="message" id="cMessage" rows="4" required></textarea>
+        </label>
+        <button type="submit" class="btn btn--primary">
+          <span>Send it over</span>
+        </button>
+        <p class="form-note" id="formNote" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>Designed &amp; built by Sanjit Bhandari, Lalitpur.</p>
+  <p id="year"></p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
