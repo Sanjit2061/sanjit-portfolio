@@ -82,6 +82,24 @@ body.dark-mode {
 
 *, *::before, *::after{ box-sizing: border-box; }
 
+/* Disable casual text selection across the site */
+body, h1, h2, h3, h4, p, span, a, li {
+  user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+input, textarea {
+  user-select: text;
+  -webkit-user-select: text;
+}
+
+/* But let people copy your email/socials/CV link in the Contact section */
+.contact-side, .contact-side * {
+  user-select: text !important;
+  -webkit-user-select: text !important;
+}
+
 html{
   scroll-behavior: smooth;
   background: var(--paper);

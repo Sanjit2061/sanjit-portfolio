@@ -845,6 +845,12 @@ function initContactForm() {
   });
 }
 
+
+function initCopyProtection() {
+  document.addEventListener("contextmenu", (e) => e.preventDefault());
+  document.addEventListener("copy", (e) => e.preventDefault());
+}
+
 /* ==========================================================================
    Boot
    ========================================================================== */
@@ -870,4 +876,5 @@ document.addEventListener("DOMContentLoaded", () => {
   initBackToTop();
   initImageLoading();
   initIdPhotoFallback();
+  initCopyProtection();
 });
